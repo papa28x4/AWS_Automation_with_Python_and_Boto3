@@ -13,7 +13,7 @@ fo = open("ec2_inventory.csv", "w")
 csv_w = csv.writer(fo)
 
 #Create the headers of the csv file
-column_headers = ["Serial Number", "Instance ID", "Instance Type", "Architecture", "Hyervisor", "Launch Time", "Private IP Address", "Public IP Address"]
+column_headers = ["Serial Number", "Instance ID", "Instance Type", "Architecture", "Platform Details", "Hyervisor", "Launch Time", "Private IP Address", "Public IP Address"]
 
 csv_w.writerow(column_headers)
 
@@ -32,7 +32,7 @@ for instance in ec2_client.describe_instances()['Reservations']:
     launch_time = instance['Instances'][0]['LaunchTime']
     private_ip_address = instance['Instances'][0]['PrivateIpAddress']
     public_ip_address = instance['Instances'][0]['PublicIpAddress']
-    csv_w.writerow([serial_number, instance_id, instance_type, architecture, hypervisor, launch_time, private_ip_address, public_ip_address])
+    csv_w.writerow([serial_number, instance_id, instance_type, architecture, platform_details, hypervisor, launch_time,  private_ip_address, public_ip_address])
     serial_number += 1
 fo.close()
     

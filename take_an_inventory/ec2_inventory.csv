@@ -1,4 +1,4 @@
-Serial Number,Instance ID,Instance Type,Architecture,Hyervisor,Launch Time,Private IP Address,Public IP Address
-1,i-0db9db3e1ee2b5fb0,t2.micro,x86_64,xen,2023-08-30 03:39:06+00:00,172.31.33.62,184.73.143.152
-2,i-04bd1c00e6c7f6181,t2.micro,x86_64,xen,2023-08-30 11:13:58+00:00,172.31.43.200,34.207.233.156
-3,i-01b26f365364bd30c,t2.micro,x86_64,xen,2023-08-30 03:37:07+00:00,172.31.41.214,54.208.193.213
+Serial Number,Instance ID,Instance Type,Architecture,Platform Details,Hyervisor,Launch Time,Private IP Address,Public IP Address
+1,i-0db9db3e1ee2b5fb0,t2.micro,x86_64,Linux/UNIX,xen,2023-08-30 03:39:06+00:00,172.31.33.62,184.73.143.152
+2,i-04bd1c00e6c7f6181,t2.micro,x86_64,Windows,xen,2023-08-30 11:13:58+00:00,172.31.43.200,34.207.233.156
+3,i-01b26f365364bd30c,t2.micro,x86_64,Linux/UNIX,xen,2023-08-30 03:37:07+00:00,172.31.41.214,54.208.193.213
