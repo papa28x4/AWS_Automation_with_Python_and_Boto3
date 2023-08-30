@@ -10,4 +10,5 @@ You have been tasked with the responsibility of getting the following details fr
 - Private IP Address 
 - Public IP Address  
 
- Save the above details to a csv file
+ Save the above details to a csv file as shown below
+![ec2_inventory](https://github.com/papa28x4/AWS_Automation_with_Python_and_Boto3/assets/45360667/00ecec07-4412-4d2b-8889-995577bd7884)
