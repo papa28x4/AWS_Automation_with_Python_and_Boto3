@@ -4,7 +4,8 @@ You have been tasked with the responsibility of getting the following details fr
 - Serial Number 
 - Instance ID 
 - Instance Type 
-- Architecture 
+- Architecture
+- Platform Details
 - Hyervisor 
 - Launch Time 
 - Private IP Address 
