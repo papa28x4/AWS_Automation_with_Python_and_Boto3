@@ -12,4 +12,5 @@ You have been tasked with the responsibility of getting the following details fr
 
  Save the above details to a csv file similar to one shown below
  
-![ec2_inventory](https://github.com/papa28x4/AWS_Automation_with_Python_and_Boto3/assets/45360667/00ecec07-4412-4d2b-8889-995577bd7884)
+
+![ec2_inventory](https://github.com/papa28x4/AWS_Automation_with_Python_and_Boto3/assets/45360667/9b6b80fd-8ac4-4f56-8aa7-9944f3cd1c64)
